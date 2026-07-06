@@ -1,5 +1,5 @@
 # gestion-budget-frontend
-# 💰 BudgetCam Frontend — React 18 + Recharts
+# BudgetCam Frontend — React 18 + Recharts
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat&logo=vite)](https://vitejs.dev/)
@@ -11,7 +11,7 @@ Interface utilisateur de la plateforme **BudgetCam** — gestion de budget perso
 
 ---
 
-## 📋 Table des Matières
+##  Table des Matières
 
 - [À propos](#-à-propos)
 - [Technologies](#-technologies)
@@ -24,7 +24,7 @@ Interface utilisateur de la plateforme **BudgetCam** — gestion de budget perso
 
 ---
 
-## 📖 À propos
+##  À propos
 
 BudgetCam Frontend est une SPA React en **thème sombre** (`slate-950`) qui propose :
 
@@ -38,7 +38,7 @@ BudgetCam Frontend est une SPA React en **thème sombre** (`slate-950`) qui prop
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 | Technologie | Version | Usage |
 |------------|---------|-------|
@@ -56,7 +56,7 @@ BudgetCam Frontend est une SPA React en **thème sombre** (`slate-950`) qui prop
 
 ---
 
-## 📱 Pages & Fonctionnalités
+##  Pages & Fonctionnalités
 
 | Page | Route | Accès | Description |
 |------|-------|-------|-------------|
@@ -70,7 +70,7 @@ BudgetCam Frontend est une SPA React en **thème sombre** (`slate-950`) qui prop
 
 ---
 
-## 📊 Dashboard Recharts
+##  Dashboard Recharts
 
 ### Navigation temporelle
 
@@ -127,7 +127,7 @@ const { data } = useQuery({
 
 ---
 
-## 🎯 Page Budgets — Alertes Spring Mail
+##  Page Budgets — Alertes Spring Mail
 
 La page Budgets affiche clairement le lien entre les budgets et les emails automatiques :
 
@@ -143,13 +143,13 @@ La page Budgets affiche clairement le lien entre les budgets et les emails autom
 
 // Badge alerte
 {budget.depasse
-  ? "⚠️ Budget dépassé — alerte email envoyée"
-  : "🔔 Alerte active — email si dépassé"}
+  ? " Budget dépassé — alerte email envoyée"
+  : " Alerte active — email si dépassé"}
 ```
 
 ---
 
-## 🔔 Page Profil — Préférences Email
+##  Page Profil — Préférences Email
 
 Deux toggles pour contrôler les emails Spring Mail :
 
@@ -174,14 +174,14 @@ const updateUser = async (prefs) => {
 
 ---
 
-## ✅ Prérequis
+##  Prérequis
 
 - Node.js 18+
 - BudgetCam Backend démarré sur `http://localhost:8083`
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/Mori-yim/budgetcam-frontend.git
@@ -193,7 +193,7 @@ npm run dev
 
 ---
 
-## 🗂️ Structure du projet
+##  Structure du projet
 
 ```
 budgetcam-frontend/
@@ -227,7 +227,7 @@ budgetcam-frontend/
 
 ---
 
-## 👥 Compte de démonstration
+##  Compte de démonstration
 
 | Email | Mot de passe |
 |-------|-------------|
@@ -235,7 +235,7 @@ budgetcam-frontend/
 
 ---
 
-## ☁️ Déploiement Vercel
+##  Déploiement Vercel
 
 ```bash
 # Variable d'environnement sur Vercel :
@@ -248,8 +248,8 @@ VITE_API_URL=https://budgetcam-api.railway.app/api/v1
 
 ---
 
-## 👨‍💻 Auteur
+##  Auteur
 
 **Mori (YIMFACK MORINO)**
-- 🎓 Licence DAP — Université de Douala
-- 🐙 GitHub : [@Mori-yim](https://github.com/Mori-yim)
+-  Licence DAP — Université de Douala
+-  GitHub : [@Mori-yim](https://github.com/Mori-yim)
