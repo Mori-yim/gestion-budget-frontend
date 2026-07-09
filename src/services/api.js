@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from 'axios'
 
-const VITE_API_URL=https://gestion-budget-backend.onrender.com
+
 const API_BASE_URL = import.meta.env.VITE_API_URL || '/api/v1'
 //const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8083/api/v1';
 
